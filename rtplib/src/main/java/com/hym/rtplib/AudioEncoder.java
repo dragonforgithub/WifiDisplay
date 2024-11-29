@@ -19,7 +19,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class AudioEncoder implements MediaEncoder {
-    private static final String TAG = AudioEncoder.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+AudioEncoder.class.getSimpleName();
     private static final boolean DEBUG = true;
 
     private MediaCodec.Callback mCallback;

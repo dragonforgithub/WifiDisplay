@@ -38,7 +38,7 @@ import java.util.Set;
 // Helper class to manage a number of live sockets (datagram and stream-based)
 // on a single thread. Clients are notified about activity through AMessages.
 public class ANetworkSession implements MediaConstants, Errno {
-    private static final String TAG = ANetworkSession.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+ANetworkSession.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int MAX_UDP_SIZE = 1500;

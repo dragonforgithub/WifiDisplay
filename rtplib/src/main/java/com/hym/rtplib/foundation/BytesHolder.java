@@ -5,7 +5,7 @@ import android.util.Log;
 import java.nio.ByteBuffer;
 
 public final class BytesHolder {
-    private static final String TAG = BytesHolder.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+BytesHolder.class.getSimpleName();
 
     private ByteBuffer mByteBuffer;
 

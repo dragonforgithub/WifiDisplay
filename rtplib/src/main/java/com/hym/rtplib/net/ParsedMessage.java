@@ -8,7 +8,7 @@ import com.hym.rtplib.util.CheckUtils;
 // Encapsulates an "HTTP/RTSP style" response, i.e. a status line,
 // key/value pairs making up the headers and an optional body/content.
 public class ParsedMessage {
-    private static final String TAG = ParsedMessage.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+ParsedMessage.class.getSimpleName();
 
     private static final boolean DEBUG = false;
 

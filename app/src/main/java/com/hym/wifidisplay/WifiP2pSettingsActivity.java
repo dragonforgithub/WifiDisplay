@@ -423,6 +423,9 @@ public class WifiP2pSettingsActivity extends PreferenceActivity {
             return;
         }
         mWifiP2pManager.requestPeers(mChannel, this::onPeersAvailable);
+
+        //Search sink
+        startSearch();
     }
 
     @Override
@@ -465,6 +468,7 @@ public class WifiP2pSettingsActivity extends PreferenceActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d(TAG, "onOptionsItemSelected : " + item.getItemId());
         switch (item.getItemId()) {
             case MENU_ID_SEARCH:
                 startSearch();

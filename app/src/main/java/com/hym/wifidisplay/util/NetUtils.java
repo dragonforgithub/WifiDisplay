@@ -10,7 +10,7 @@ import java.util.Enumeration;
 import java.util.List;
 
 public class NetUtils {
-    private static final String TAG = NetUtils.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+NetUtils.class.getSimpleName();
 
     private NetUtils() {
     }

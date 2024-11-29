@@ -12,7 +12,7 @@ import java.nio.ByteBuffer;
 import java.util.List;
 
 public abstract class RTPAssembler implements MediaConstants, Errno {
-    private static final String TAG = RTPAssembler.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+RTPAssembler.class.getSimpleName();
 
     private final AMessage mNotify;
 

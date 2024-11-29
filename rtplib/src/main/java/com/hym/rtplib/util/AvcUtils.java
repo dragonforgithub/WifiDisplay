@@ -10,7 +10,7 @@ import com.hym.rtplib.foundation.ABuffer;
 import java.nio.ByteBuffer;
 
 public class AvcUtils implements MediaConstants, Errno {
-    private static final String TAG = AvcUtils.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+AvcUtils.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int AVC_PROFILE_BASELINE = 0x42;

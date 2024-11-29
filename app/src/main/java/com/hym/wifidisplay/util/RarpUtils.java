@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  * 192.168.49.208   0x1         0x2         a2:0b:ba:ba:c4:d1     *        p2p-wlan0-8
  */
 public class RarpUtils {
-    private static String TAG = RarpUtils.class.getSimpleName();
+    private static String TAG = "WifiDisplay"+RarpUtils.class.getSimpleName();
 
     private static final String ARP_PATH = "/proc/net/arp";
 

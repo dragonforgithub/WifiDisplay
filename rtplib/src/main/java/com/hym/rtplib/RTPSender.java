@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 public class RTPSender extends AHandler implements RTPBase, MediaConstants, Errno {
-    private static final String TAG = RTPSender.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+RTPSender.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int WHAT_INIT_DONE = 0;

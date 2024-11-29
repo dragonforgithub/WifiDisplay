@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
 public final class AMessage {
-    private static final String TAG = AMessage.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+AMessage.class.getSimpleName();
 
     private static final boolean DEBUG = false;
 

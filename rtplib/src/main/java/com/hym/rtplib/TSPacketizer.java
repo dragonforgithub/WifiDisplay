@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class TSPacketizer implements MediaConstants, Errno {
-    private static final String TAG = TSPacketizer.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+TSPacketizer.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int EMIT_HDCP20_DESCRIPTOR = 1;

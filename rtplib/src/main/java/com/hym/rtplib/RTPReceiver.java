@@ -21,7 +21,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class RTPReceiver extends AHandler implements RTPBase, MediaConstants, Errno {
-    private static final String TAG = RTPReceiver.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+RTPReceiver.class.getSimpleName();
     private static final boolean DEBUG = true;
     private static final boolean TRACK_PACKET_LOSS = false;
 

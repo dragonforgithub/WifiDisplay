@@ -25,7 +25,7 @@ import com.hym.rtplib.util.TimeUtils;
 import java.io.IOException;
 
 public class PlaybackSession extends AHandler implements MediaConstants, Errno {
-    private static final String TAG = PlaybackSession.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+PlaybackSession.class.getSimpleName();
 
     public static final int WHAT_SESSION_DEAD = 0;
     public static final int WHAT_BINARY_DATA = 1;

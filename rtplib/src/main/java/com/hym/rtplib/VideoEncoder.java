@@ -36,7 +36,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class VideoEncoder implements MediaEncoder, MediaConstants {
-    private static final String TAG = VideoEncoder.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+VideoEncoder.class.getSimpleName();
     private static final boolean DEBUG = true;
     private static final boolean DEBUG_TIMESTAMP = true;
 

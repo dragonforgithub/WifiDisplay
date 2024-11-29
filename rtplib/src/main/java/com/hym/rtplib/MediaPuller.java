@@ -11,7 +11,7 @@ import com.hym.rtplib.foundation.AMessage;
 import com.hym.rtplib.util.CheckUtils;
 
 public class MediaPuller extends AHandler implements MediaConstants, Errno {
-    private static final String TAG = MediaPuller.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+MediaPuller.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int WHAT_PULL_SUCCESS = 1;

@@ -27,7 +27,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 
 public class Converter extends AHandler implements MediaConstants, Errno {
-    private static final String TAG = Converter.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+Converter.class.getSimpleName();
     private static final boolean DEBUG = false;
 
     public static final int WHAT_ACCESS_UNIT = 0;
@@ -491,8 +491,10 @@ public class Converter extends AHandler implements MediaConstants, Errno {
                     Image readerImage = encoder.mWriterToReaderMap.get(writerImage);
                     long frameTimeStamp = encoder.mTimestampMap.get(readerImage);
                     long outputTimestamp = TimeUtils.getMonotonicMilliTime();
+                    /*
                     Log.w(TAG, "encodeTime=" + (outputTimestamp - inputTimeStamp)
                             + " queueTime=" + (inputTimeStamp - frameTimeStamp));
+                     */
 
                     boolean isIDR = ((info.flags & MediaCodec.BUFFER_FLAG_KEY_FRAME) != 0);
                     if (isIDR) {

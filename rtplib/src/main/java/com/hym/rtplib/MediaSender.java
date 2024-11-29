@@ -17,7 +17,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MediaSender extends AHandler implements MediaConstants, Errno {
-    private static final String TAG = MediaSender.class.getSimpleName();
+    private static final String TAG = "WifiDisplay"+MediaSender.class.getSimpleName();
 
     public static final int WHAT_INIT_DONE = 0;
     public static final int WHAT_ERROR = 1;
